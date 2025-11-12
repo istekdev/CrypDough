@@ -1,0 +1,9 @@
+{
+  "socials": {
+    "developer": "ISTEK",
+    "github": "https://github.com/istekdev/CrypDough",
+    "created": 1762991399
+  },
+  "coins": ["bitcoin", "ethereum", "tether", "ripple", "binancecoin", "solana", "usd-coin", "tron", "dogecoin", "cardano"],
+  "delay": 10
+}
