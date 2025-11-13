@@ -5,7 +5,7 @@
     "created": 1762991399
   },
   "currency": "usd",
-  "endpoint": "https://api.coingecko.com/api/v3/simple/price?ids={currency}&vs_currencies={currency}",
+  "endpoint": "https://api.coingecko.com/api/v3/simple/price?ids={crypto}&vs_currencies={currency}",
   "coins": ["bitcoin", "ethereum", "tether", "ripple", "binancecoin", "solana", "usd-coin", "tron", "dogecoin", "cardano"],
   "delay": 10
 }
