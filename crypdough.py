@@ -26,7 +26,7 @@ def test():
     return False
 
 def start():
-  print(colored(f"Version: {str(config['version']}\nCreated By: {config['socials']['developer']}\nGithub: {config['socials']['github']}\n\nAPI Call Delay: {config['delay']} Seconds\nCurrency: {config['currency']}\nCryptocurrencies Listed: {config['coins']}\nAPI: {config['endpoint']}\n\nTo Change Specific Attributes, Access The Local config.json\n\nThe Program Will Start in 5 Seconds.", "white", attrs=["bold"]))
+  print(colored(f"Version: {str(config['version'])}\nCreated By: {config['socials']['developer']}\nGithub: {config['socials']['github']}\n\nAPI Call Delay: {config['delay']} Seconds\nCurrency: {config['currency']}\nCryptocurrencies Listed: {config['coins']}\nAPI: {config['endpoint']}\n\nTo Change Specific Attributes, Access The Local config.json\n\nThe Program Will Start in 5 Seconds.", "white", attrs=["bold"]))
   time.sleep(5)
   clear()
   while True:
@@ -43,6 +43,5 @@ if test() == True:
 else:
   print(colored("Error - API Is Dysfunctional\n\nClosing In 5 Seconds", "red", attrs=["bold"]))
   time.sleep(5)
-  return
   
 
