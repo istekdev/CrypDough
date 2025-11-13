@@ -4,6 +4,7 @@
     "github": "https://github.com/istekdev/CrypDough",
     "created": 1762991399
   },
+  "version": 1,
   "currency": "usd",
   "endpoint": "https://api.coingecko.com/api/v3/simple/price?ids=",
   "coins": ["bitcoin", "ethereum", "tether", "ripple", "binancecoin", "solana", "usd-coin", "tron", "dogecoin", "cardano"],
