@@ -32,7 +32,9 @@ def start():
   while True:
     for crypto in cryptocurrencies:
       completeAPI = f"{endpoint}{crypto}{currencyParam}{currency}"
-      print(colored(f"{crypto.title()}: {completeAPI}\n", "white", attrs=["bold"]))
+      api = requests.get(completeAPI).json()
+      price = f"${api[crypto][currency]:,.2f}"
+      print(colored(f"{crypto.title()}: {price}\n", "white", attrs=["bold"]))
       time.sleep(delay)
       clear()
 
