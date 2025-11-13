@@ -34,6 +34,7 @@ def start():
       completeAPI = f"{endpoint}{crypto}{currencyParam}{currency}"
       print(colored(f"{crypto.title()}: {completeAPI}\n", "white", attrs=["bold"]))
       time.sleep(delay)
+      clear()
 
 if test() == True:
   start()
